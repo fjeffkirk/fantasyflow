@@ -1,0 +1,65 @@
+[
+  {
+    "id": 4905859,
+    "name": "Felix Bautista",
+    "position": "RF",
+    "team": "Bal",
+    "fantasy_team_id": 1,
+    "stats": {
+      "runs": 25,
+      "hits": 45,
+      "home_runs": 8,
+      "rbis": 22,
+      "stolen_bases": 3,
+      "avg": 0.285,
+      "era": 0.0,
+      "whip": 0.0,
+      "strikeouts": 0,
+      "saves": 0,
+      "wins": 0,
+      "quality_starts": 0
+    }
+  },
+  {
+    "id": 41996,
+    "name": "Steven Kwan",
+    "position": "2B/SS",
+    "team": "Cle",
+    "fantasy_team_id": 1,
+    "stats": {
+      "runs": 32,
+      "hits": 78,
+      "home_runs": 4,
+      "rbis": 28,
+      "stolen_bases": 12,
+      "avg": 0.312,
+      "era": 0.0,
+      "whip": 0.0,
+      "strikeouts": 0,
+      "saves": 0,
+      "wins": 0,
+      "quality_starts": 0
+    }
+  },
+  {
+    "id": 37515,
+    "name": "Brandon Woodruff",
+    "position": "C",
+    "team": "Mil",
+    "fantasy_team_id": 1,
+    "stats": {
+      "runs": 0,
+      "hits": 0,
+      "home_runs": 0,
+      "rbis": 0,
+      "stolen_bases": 0,
+      "avg": 0.0,
+      "era": 3.25,
+      "whip": 1.15,
+      "strikeouts": 95,
+      "saves": 0,
+      "wins": 8,
+      "quality_starts": 12
+    }
+  }
+] 

@@ -1,0 +1,72 @@
+[
+  {
+    "week": 110,
+    "home_team": {
+      "id": 1,
+      "name": "Mis Machine",
+      "score": 0
+    },
+    "away_team": {
+      "id": 9,
+      "name": "Astros\u2019 Strategist",
+      "score": 0
+    },
+    "status": "IN_PROGRESS"
+  },
+  {
+    "week": 110,
+    "home_team": {
+      "id": 10,
+      "name": "I Already Gave Up",
+      "score": 0
+    },
+    "away_team": {
+      "id": 7,
+      "name": "Jac of All Trades",
+      "score": 0
+    },
+    "status": "IN_PROGRESS"
+  },
+  {
+    "week": 110,
+    "home_team": {
+      "id": 4,
+      "name": "Chubs for Chourio",
+      "score": 0
+    },
+    "away_team": {
+      "id": 5,
+      "name": "TRADING SS and RP HMU",
+      "score": 0
+    },
+    "status": "IN_PROGRESS"
+  },
+  {
+    "week": 110,
+    "home_team": {
+      "id": 8,
+      "name": "Monster on the Mound",
+      "score": 0
+    },
+    "away_team": {
+      "id": 2,
+      "name": "Mookie Crisp",
+      "score": 0
+    },
+    "status": "IN_PROGRESS"
+  },
+  {
+    "week": 110,
+    "home_team": {
+      "id": 3,
+      "name": "Gass's Missing $50",
+      "score": 0
+    },
+    "away_team": {
+      "id": 6,
+      "name": "Link's Lynx",
+      "score": 0
+    },
+    "status": "IN_PROGRESS"
+  }
+]
