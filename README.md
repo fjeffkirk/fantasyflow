@@ -66,6 +66,22 @@ On your first visit, you will be greeted with a setup screen. You need to provid
 
 The app provides a built-in **Help!** guide with detailed, browser-specific instructions on how to find these values. Once entered, they are stored securely in your browser's local storage for future visits.
 
+### Demo / Test Mode
+
+If you’d like to explore **Fantasy Flow** without entering any real ESPN credentials, you can launch the app in a lightweight demo mode:
+
+1. Run the app locally with `npm run dev` (or open the deployed site).
+2. On the first-time setup screen, type **`test`** in **all three** fields — League ID, ESPN_S2, and SWID.
+3. Click **Save**.
+
+The app will detect the triple-`test` pattern and automatically switch to **demo mode**:
+
+- No external API calls are made — the dashboard loads stub league data almost instantly.
+- You can freely browse the Dashboard, Matchup, Lineup, and Settings tabs to get a feel for the interface.
+- Feature flags such as week switching and refresh still work, but display placeholder content.
+
+To return to the full experience later, open the Settings panel (cog icon in the top-right) and click **Clear Credentials**. Refresh the page and enter your real league information.
+
 ---
 
 ## 📖 Project Structure
