@@ -15,7 +15,7 @@ export function buildWeekMetaMapFromMLB(dates: Date[]): Record<number, WeekMeta>
   const map: Record<number, WeekMeta> = {};
   let matchup = 1;
   const msPerDay = 24 * 60 * 60 * 1000;
-  let ptr = new Date(firstMon);
+  const ptr = new Date(firstMon);
   const last = new Date(dates[dates.length - 1]);
 
   while (ptr <= last && matchup <= 30) {

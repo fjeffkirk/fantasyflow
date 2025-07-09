@@ -132,7 +132,7 @@ export const WeeklyStats = ({ selectedTeam: initialSelectedTeam }: WeeklyStatsPr
         const matches = await playerMatcher.matchPlayers(espnStarters, mlbPlayers);
         for (const match of matches) {
           if (match.mlbPlayer && match.confidence > 0.7 && match.mlbPlayer.id != null) {
-            const stat = dailyStatsMap[String(match.mlbPlayer.id)];
+            const stat = (dailyStatsMap as Record<string, any>)[String(match.mlbPlayer.id)];
             if (!stat) continue;
             allMatchedPerformances.push({
               espnPlayer: match.espnPlayer,
