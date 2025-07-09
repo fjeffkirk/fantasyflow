@@ -20,7 +20,7 @@ export default defineConfig({
     open: true,
     proxy: {
       '/espn': {
-        target: 'http://localhost:3001',
+        target: process.env.PROXY_TARGET || 'http://localhost:3001',
         changeOrigin: true,
         secure: false,
       },
